@@ -1,3 +1,13 @@
+/*9. O cálculo do consumo de energia elétrica dos aparelhos de sua casa pode te 
+ajudar a economizar eletricidade e dinheiro. O consumo de energia elétrica dos 
+aparelhos de uma casa é obtido aplicando-se a fórmula:
+t: tempo em que o produto permanece ligado (horas mensais)
+p: potência do aparelho (em Watts)
+a) Faça uma função para calcular o consumo de energia de um aparelho. Leia o 
+nome do aparelho, tempo que o produto permanece ligado e potência do 
+aparelho.
+b) Por fim, deve ser impresso o consumo do aparelho. Conforme, exemplo 
+abaixo:*/
 #include <stdio.h>
 #include <stdlib.h>
 

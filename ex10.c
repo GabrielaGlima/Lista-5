@@ -1,3 +1,11 @@
+/*10. Crie uma função que retorna qual o conceito dado uma nota. Utilize a tabela a 
+seguir:
+conceito                nota
+    A                9<=nota<=10
+    B                9<=nota<=10
+    C                9<=nota<=10
+    D                9<=nota<=10
+    F                9<=nota<=10  */
 #include <stdio.h>
 #include <stdlib.h>
 void conceitonota(float nota);
