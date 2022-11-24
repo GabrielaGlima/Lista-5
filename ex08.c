@@ -15,17 +15,17 @@ int main(){
 int numeroprimos(int n){
     int aux,primo=1;
 
-   for (aux = 2; aux <= n/2; aux++){
-        if((n % aux) == 0){
+    for (aux = 2; aux <= n/2; aux++){
+            if((n % aux) == 0){
             primo = 0;
-        }
-   }
+            }
+     }
         
-        if (primo){
+    if (primo){
             printf("Numero primo\n");
-        }else{
+    }else{
             printf("Numero não primo\n");
-        }
+    }
         
     return aux;
 }
